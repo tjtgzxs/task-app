@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.project-list{
+    display: flex;
+    /*background: #ef4444;*/
+    align-items:flex-start;
+    justify-content: start;
+    gap: 20px;
+}
+.delete{
+    margin-top: 5px;
+    width: 100%;
+}
+.list-header{
+    font-family: Dancing Script, serif ;
+    width: 100%;
+    display: block;
+    border-bottom:  1px solid black;
+}
+.project{
+
+    background: #e9ecef !important;
+
+}
+.project-delete{
+    width: 100%;
+}
+//.task,.task-add{
+//    height: 6vw;
+//    border-radius: 15px;
+//    font-size: larger;
+//    min-width: 287px;
+//    min-height: 50px;
+//    width: 80%;
+//    flex-grow: 1;
+//    text-align: center;
+//    background: aqua;
+//    margin-top: 5px;
+//}
+.task-add{
+    background-color: #fff3cd !important;
+}
+//.task input{
+//
+//}
+/*.task-list{*/
+/*display: block;*/
+/*background: aqua;*/
+/*height: 100px;*/
+/*}*/
