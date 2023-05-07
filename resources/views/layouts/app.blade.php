@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    @vite(['resources/js/jquery-3.6.4.min.js','resources/sass/project.scss','resources/sass/app.scss', 'resources/js/app.js','resources/js/project.js','resources/js/jquery-ui.min.js'])
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    @vite(['resources/js/jquery-ui.min.js','resources/sass/project.scss','resources/sass/app.scss', 'resources/js/app.js','resources/js/project.js'])
     <title>projects</title>
 </head>
 <body>

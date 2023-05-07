@@ -15,14 +15,14 @@
                 <div class="task-list ">
                     <div class="task-add list-group-item list-group-item-action">
                         <input type="text" placeholder="Please add new task" value="" required>
-                        <button class="add btn btn-sm  btn-outline-primary">ADD</button>
+                        <button class="add btn btn-sm  btn-outline-primary">ADD NEW</button>
 
                     </div>
                     @foreach($project['tasks'] as $task)
                         <div class="task list-group-item list-group-item-action" id="{{$project['id']}}-{{$task['id']}}">
                             <input type="text" value="{{$task['name']}}" required>
 
-                            <button class="edit btn btn-sm  btn-outline-success">EDIT</button>
+                            <button class="edit btn btn-sm  btn-outline-success">UPDATE</button>
                             <br>
                             <button class="delete btn btn-sm  btn-outline-danger ">DELETE</button>
                         </div>
